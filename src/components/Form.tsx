@@ -151,7 +151,7 @@ const Form = () => {
               </a>
             </div>
           </div>
-          <div className="md:max-w-[542px] flex-col flex justify-center items-center m-w-[256px] col-[second] row-[second] justify-self-center">
+          <div className="max-w-[256px] md:max-w-[542px] flex-col flex justify-center items-center m-w-[256px] col-[second] row-[second] justify-self-center">
             <div className="flex h-[80px] items-center justify-center">
               <a href="#" className="leading-0">
                 <div className="flex ">
