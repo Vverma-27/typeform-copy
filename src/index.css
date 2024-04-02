@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-ExtraLight.ttf") format("truetype");
+  font-weight: 100;
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Light.ttf") format("truetype");
+  font-weight: 200;
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Thin.ttf") format("truetype");
+  font-weight: 300;
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Bold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "apercu-pro";
+  src: url("./assets/fonts/ApercuPro-Black.ttf") format("truetype");
+  font-weight: 700;
+}
+html,
+body,
+#root {
+  @apply h-full;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: apercu-pro, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 25, 25);
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px;
+  min-height: 100%;
+  padding: 0px;
+}
+/* css common styles used by typeform */
+p {
+  @apply mb-[20px];
+}
+a {
+  @apply bg-transparent text-[inherit] text-[100%] m-0 p-0;
+}
