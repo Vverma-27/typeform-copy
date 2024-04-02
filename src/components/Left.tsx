@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../assets/images/left-image.webp";
 
 const Left = () => {

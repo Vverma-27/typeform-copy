@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./form.css";
 
 const Form = () => {
@@ -273,6 +273,7 @@ const Form = () => {
                                     data-qa="field-password"
                                     min-length="10"
                                     max-length="72"
+                                    // @ts-ignore
                                     passwordrules="minlength: 10; maxlength: 72; required: lower; required: upper; required: digit; required: [!&quot;#$%&amp;'()*+,-./:;<=>?@[\]^_`{|}~];"
                                   />
                                   <button
